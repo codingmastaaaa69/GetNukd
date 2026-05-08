@@ -8,7 +8,7 @@ const root = document.getElementById('root');
 
 async function init() {
   try {
-    const response = await fetch('/src/games.json');
+    const response = await fetch('src/games.json');
     gamesData = await response.json();
     render();
   } catch (error) {
