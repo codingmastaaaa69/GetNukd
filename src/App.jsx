@@ -15,7 +15,6 @@ import gamesDataRaw from './games.json';
 const gamesData = Array.isArray(gamesDataRaw) ? gamesDataRaw : [];
 
 export default function App() {
-  console.log('App rendering, games count:', gamesData.length);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGame, setSelectedGame] = useState(null);
   const [activeCategory, setActiveCategory] = useState('All');
