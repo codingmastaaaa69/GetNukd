@@ -1,0 +1,42 @@
+[
+  {
+    "id": "slope",
+    "name": "Slope",
+    "description": "Navigate a ball through a 3D isometric obstacle course.",
+    "url": "https://slopegame.io/slope-game.embed",
+    "thumbnail": "https://img.gamedistribution.com/de6d6c29a67448d3900b95eb88e0f666-512x512.jpeg",
+    "category": "Speed"
+  },
+  {
+    "id": "2048",
+    "name": "2048",
+    "description": "Join the numbers to get to the 2048 tile!",
+    "url": "https://play2048.co/",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
+    "category": "Puzzle"
+  },
+  {
+    "id": "tetris",
+    "name": "Tetris",
+    "description": "The classic block-stacking puzzle game.",
+    "url": "https://chvin.github.io/react-tetris/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6A763Qp-8O-wO5D-0n0G8A-0Q-U-Z-U-Z&s",
+    "category": "Puzzle"
+  },
+  {
+    "id": "tunnel-rush",
+    "name": "Tunnel Rush",
+    "description": "Fast-paced racing through neon tunnels.",
+    "url": "https://tunnelrush.org/tunnel-rush.embed",
+    "thumbnail": "https://img.gamedistribution.com/5c941328905a41a4a6e873641b9d4c55-512x512.jpeg",
+    "category": "Action"
+  },
+  {
+    "id": "cookie-clicker",
+    "name": "Cookie Clicker",
+    "description": "The original idle game about baking cookies.",
+    "url": "https://orteil.dashnet.org/cookieclicker/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4i6b5w8e0Z7f7D0v-3l1c1-4s-3r1-v-1&s",
+    "category": "Idle"
+  }
+]
