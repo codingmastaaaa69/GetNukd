@@ -1,20 +1,15 @@
+import './index.css';
+import gamesData from './games.json';
+
 // State
-let gamesData = [];
 let searchQuery = '';
 let activeCategory = 'All';
 let selectedGame = null;
 
 const root = document.getElementById('root');
 
-async function init() {
-  try {
-    const response = await fetch('src/games.json');
-    gamesData = await response.json();
-    render();
-  } catch (error) {
-    console.error('Failed to load games:', error);
-    root.innerHTML = `<div class="p-10 text-center font-mono uppercase">Critical Error: Sector Data Corrupted</div>`;
-  }
+function init() {
+  render();
 }
 
 function render() {
